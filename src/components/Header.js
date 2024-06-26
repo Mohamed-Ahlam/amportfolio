@@ -52,10 +52,10 @@ const Header = () => {
         >
           <Image src={logo} alt="Logo" boxSize="50px" /> 
           <HStack spacing={8}>
-            <a href="/#projects" onClick={handleClick("projects")}>
+            <a onClick={handleClick("projects")}>
               Projects
             </a>
-            <a href="/#contactme" onClick={handleClick("contactme")}>
+            <a onClick={handleClick("contactme")}>
               Contact Me
             </a>
             {socials.map((social, index) => (
