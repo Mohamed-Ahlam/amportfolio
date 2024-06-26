@@ -5,7 +5,7 @@ import logo from '../images/image.png';
 const greeting = "Hi, I'm";
 const name = "Ahlam Mohamed"
 const bio1 = "Front End Developer";
-const bio2 = "Aspiring front-end developer with a passion for creating" + "\n" + "beautiful and functional user interfaces.";
+const bio2 = `Aspiring Front-end developer with a passion for creating beautiful \n and functional user interfaces.`;
 
 const LandingSection = () => {
   const handleClick = (anchor) => () => {
@@ -71,7 +71,7 @@ const LandingSection = () => {
           <Text fontSize="2xl" color="#553566 " fontWeight="semibold">
             {bio1}
           </Text>
-          <Text fontSize="xl" color="#553566 " fontWeight="normal">
+          <Text fontSize="xl" color="#553566 " fontWeight="normal" whiteSpace="pre-line">
             {bio2}
           </Text>
           <Button
