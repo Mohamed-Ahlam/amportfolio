@@ -5,7 +5,7 @@ import logo from '../images/image.png';
 const greeting = "Hi, I'm";
 const name = "Ahlam Mohamed"
 const bio1 = "Front End Developer";
-const bio2 = "Aspiring front-end developer with a passion for creating beautiful and functional user interfaces.";
+const bio2 = "Aspiring front-end developer with a passion for creating \n beautiful and functional user interfaces.";
 
 const LandingSection = () => {
   const handleClick = (anchor) => () => {
